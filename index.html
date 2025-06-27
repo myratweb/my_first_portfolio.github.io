@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Myrat_Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Hello</h1>
+    <p>I am frontend developer.</p>
+    <div class="button-group">
+        <a href="mailto:myratwebtm@gmail.com" class="btn">💬 Message me</a>
+    </div>
+  </header>
+<section class="skills">
+    <h2>About me</h2>
+    <div class="skill-buttons">
+        <span class="skill-btn">💻 HTML / CSS / JavaScript</span>
+        <span class="skill-btn">⚙️ Adaptive layout</span>
+        <span class="skill-btn">🧠 Work with customer</span>
+    </div>
+</section>
+<section class="contact">
+  <h2>Contact with me</h2>
+  <div class="contact-buttons">
+    <a href="https://www.tiktok.com/@mfrontender" target="_blank" class="contact-btn tiktok">
+      <i class="fab fa-tiktok"></i> TikTok
+    </a>
+    <a href="https://t.me/myrat_web" target="_blank" class="contact-btn telegram">
+      <i class="fab fa-telegram-plane"></i> Telegram
+    </a>
+    <a href="mailto:myratwebtm@gmail.com" class="contact-btn gmail">
+      <i class="fas fa-envelope"></i> Gmail
+    </a>
+  </div>
+</section>
+  <footer>
+    <p>Связаться: myratwebtm@gmail.com</p>
+  </footer>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('header', { delay: 200, distance: '30px', origin: 'top', duration: 1000 });
+    ScrollReveal().reveal('.portfolio h2', { delay: 300, distance: '30px', origin: 'bottom', duration: 1000 });
+    ScrollReveal().reveal('.project-card', { interval: 200, distance: '40px', origin: 'bottom', duration: 800 });
+    ScrollReveal().reveal('footer', { delay: 600, distance: '30px', origin: 'bottom', duration: 1000 });
+  </script>
+</body>
+</html>
